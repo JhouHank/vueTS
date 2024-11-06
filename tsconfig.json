@@ -28,7 +28,7 @@
     "skipLibCheck": true, // 跳過文件類型檢查。這對性能很重要，否則將檢查所有內容。
     "moduleDetection": "force", //此選項強制 TypeScript 將所有文件視為模組。這有助於避免 'cannot redeclare block-scoped variable' 錯誤。
     "verbatimModuleSyntax": true, // 強制使用 ESM 的導入和導出語法，確保一致性和可預測性。(如：檔案名稱後面會加入副檔名)
-    "declaration": true // 生成型別宣告檔，以便在創建庫時支持自動完成功能。
+    "declaration": false // 生成型別宣告檔，以便在創建庫時支持自動完成功能。
   },
   "include": [
     "src/**/*", // 包括 src 目錄下的所有檔案。
