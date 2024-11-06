@@ -29,6 +29,7 @@
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
   <Button variant="secondary" size="lg">Test</Button>
+  <p>qweqwe</p>
 </template>
 <script setup lang="ts">
 import { ref } from 'vue';
