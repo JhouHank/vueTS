@@ -1,1 +1,2 @@
-echo "trigger pre-commit"
+# echo "trigger pre-commit"
+# pnpm format
