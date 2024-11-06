@@ -1,2 +1,2 @@
-echo "檢查 commitlint 規則"
+echo "check commitlint rules"
 npx --no -- commitlint --edit $1

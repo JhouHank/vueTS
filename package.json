@@ -1,5 +1,5 @@
 {
-  "name": "newtry",
+  "name": "vueTS",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -45,7 +45,6 @@
     "postcss": "^8.4.47",
     "prettier": "3.3.3",
     "rollup-plugin-visualizer": "^5.12.0",
-    "sass": "^1.80.6",
     "tailwindcss": "^3.4.14",
     "typescript": "~5.6.3",
     "typescript-eslint": "^8.13.0",
