@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   disableEmoji: false, // 是否禁用 emoji
   format: '{type}{scope}: {emoji}{subject}', // Commit 訊息的格式
   list: [

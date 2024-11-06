@@ -1,13 +1,2 @@
-echo "trigger commit-msg"
+echo "檢查 commitlint 規則"
 npx --no -- commitlint --edit $1
-
-# message="$(cat $1)"
-# requiredPattern="^(feat:|fix:|docs:|style:|refactor:|pref:|test:|build:|ci:|chore:|revert:|Merge) .*$"
-
-# echo \"Recived message '------->' $message \"
-
-# if ! [[ $message =~ $requiredPattern ]];
-# then
-# echo "your commit message is invalid"
-# exit 1
-# fi
