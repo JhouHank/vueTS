@@ -12,7 +12,6 @@
       "vite/client", // Vite 的型別定義。
       "vue" // Vue 的型別定義。
     ],
-    "typeRoots": ["./node_modules/@types", "./src/types"],
     "allowJs": true, // 允許導入和編譯 JavaScript 檔案。
     "outDir": "./dist",
     "rootDir": "./src",

@@ -34,7 +34,6 @@ export default defineConfig({
       restart: ['vite.config.js', '.env.development'],
     }),
     createSvgIconsPlugin({
-      // eslint-disable-next-line no-undef
       iconDirs: [path.resolve(process.cwd(), 'src/assets/icons')],
       symbolId: '[name]',
     }),

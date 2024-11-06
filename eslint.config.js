@@ -9,8 +9,10 @@ export default [
   {
     files: ['**/*.{js,mjs,cjs,ts,vue}'],
     languageOptions: {
-      globals: globals.browser,
-      ...globals.node,
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+      },
     },
   },
   // JS 推薦的 eslint 規則
