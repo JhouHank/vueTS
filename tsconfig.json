@@ -13,6 +13,8 @@
       "vue" // Vue 的型別定義。
     ],
     "allowJs": true, // 允許導入和編譯 JavaScript 檔案。
+    "outDir": "./dist",
+    "rootDir": "./src",
     "resolveJsonModule": true, // 允許導入 JSON 檔案。
     "strict": true, // 啟用所有嚴格的型別檢查選項，以確保更高的型別安全性。
     "strictNullChecks": true, // 啟用嚴格的 null 檢查，確保在訪問可能為 null 的值時進行安全檢查。
@@ -32,6 +34,6 @@
     "src/**/*", // 包括 src 目錄下的所有檔案。
     "src/**/*.vue" // 包括所有 Vue 單檔元件。
   ],
-  "exclude": ["dist", "node_modules"], // 排除編譯輸出目錄、依賴項目錄。
+  "exclude": ["dist", "node_modules", "src/**/*.js"], // 排除編譯輸出目錄、依賴項目錄。
   "references": [{ "path": "./tsconfig.node.json" }] // 引用其他 TypeScript 配置檔案。
 }
